@@ -1,0 +1,122 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{94, 77}, {328, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "title_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "3C83C5B7-0899-419D-A843-F4C34C2DEA17",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Rock, Paper, Scissors!",
+          "font_size" : 28,
+          "font_name" : "<System-Bold>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{287, 167}, {467, 39}}",
+        "class" : "SegmentedControl",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LR",
+          "segments" : "Rock|Paper|Scissors",
+          "frame" : "{{452, 370}, {120, 29}}",
+          "uuid" : "8E1F200C-7D30-47E9-BF27-01AD7C8DB225",
+          "custom_attributes" : "",
+          "class" : "SegmentedControl",
+          "name" : "rock_paper_scissors_segmented_control"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{224, 276}, {581, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "computer_choice_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "4C53CE30-BC63-4EB8-942C-6479C7FF31DC",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 22,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{339, 316}, {365, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "results_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "22468F7C-2540-4E3D-976F-7FC683FDB23E",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 22,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{224, 127}, {581, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "instruction_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "2FD89FE5-AA70-4E5F-9B8D-7CCF0BB869CC",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Select either rock, paper or scissors and see who wins:",
+          "font_size" : 22,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{460, 225}, {118, 33}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "see_results_button_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Shoot!",
+          "class" : "Button",
+          "uuid" : "F34A31F2-2396-40CC-8A79-B90B15BB07CB",
+          "font_size" : 15,
+          "name" : "see_results_button"
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
